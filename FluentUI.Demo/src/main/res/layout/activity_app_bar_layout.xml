@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/date_time_pickers"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:visibility="gone"
+    android:padding="@dimen/fluentui_date_time_picker_padding">
+    <androidx.recyclerview.widget.RecyclerView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/customerlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/fluentuiBackgroundColor"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:context=".demos.AppBarLayoutActivity" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/musteriliste"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/fluentuiBackgroundColor"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/list_searcharticels"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/fluentuiBackgroundColor"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:context=".demos.AppBarLayoutActivity" />
+</LinearLayout>

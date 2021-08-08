@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) Microsoft Corporation. All rights reserved.
+  ~ Licensed under the MIT License.
+  -->
+
+<resources>
+
+
+    <color name="bluevar1">#0078d4</color>
+    <color name="bluevar2">#006fc2</color>
+    <color name="bluevar3">#0064af</color>
+    <color name="bluevar4">#03A9F4</color>
+    <color name="bluevar5">#03A9F4</color>
+
+    <color name="blackvar1">#323130</color>
+
+
+    <color name="greyvar1">#f2f2f2</color>
+    <color name="greyvar2">#eaeaea</color>
+    <color name="greyvar3">#999</color>
+
+
+    <!--Calendar-->
+    <color name="calendar_selected_date_text">@color/fluentui_gray_100</color>
+    <color name="calendar_selected_date_background">#333</color>
+
+    <!--Snackbar-->
+    <color name="snackbar_circular_progress_drawable">@color/fluentui_white</color>
+
+    <!--TemplateView-->
+    <color name="template_view_cell_horizontal_background">@color/fluentui_communication_tint_40
+    </color>
+    <color name="template_view_cell_vertical_background">@color/fluentui_gray_50</color>
+
+    <!--ActionBarLayout-->
+    <color name="action_bar_radio_labels">@color/fluentui_black</color>
+    <!--Botttomsheet tint-->
+    <color name="bottomsheet_horizontal_icon_tint">@color/fluentui_gray_500</color>
+    <!--Tooltip custom color-->
+    <color name="tooltip_custom_color">@color/design_default_color_primary</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) Microsoft Corporation. All rights reserved.
+  ~ Licensed under the MIT License.
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/bottom_navigation">
+        <item
+            android:id="@+id/action_photos"
+            android:title="Müşteriler"
+            android:icon="@drawable/ic_image_library_28_regular" />
+        <item
+            android:id="@+id/action_news"
+            android:title="Siparişler"
+            android:icon="@drawable/ic_news_28_regular" />
+        <item
+            android:id="@+id/action_alerts"
+            android:title="İrsaliyeler"
+            android:icon="@drawable/ic_alert_28_regular" />
+        <item
+            android:id="@+id/action_calendar"
+            android:title="Sİpariş Oluştur"
+            android:icon="@drawable/ic_calendar_28_regular" />
+        <item
+            android:id="@+id/action_team"
+            android:title="İrsaliye Oluştur"
+            android:icon="@drawable/ic_people_team_28_regular" />
+    </group>
+
+</menu>
